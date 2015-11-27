@@ -1,0 +1,56 @@
+{
+  "name": "react.css.transition",
+  "version": "0.0.1",
+  "description": "CSS Transition for React Component Animation.",
+  "author": {
+    "name": "solome",
+    "email": "iliyang.cn@gamil.com"
+  },
+  "keywords": [
+    "react",
+    "mt-component",
+    "react-component"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "build",
+    "assets/*.css"
+  ],
+  "main": "./lib/index",
+  "scripts": {
+    "test": "NODE_ENV=production mocha -r test.setup.js --compilers js:babel/register",
+    "start": "gulp start",
+    "pub": "NODE_ENV=production gulp pub",
+    "npmpub": "NODE_ENV=production gulp pub --raw"
+  },
+  "style": "assets/index.css",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "babel": "^5.8.23",
+    "babel-plugin-react-transform": "^1.1.1",
+    "bootstrap": "^3.3.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "jsdom": "^6.1.0",
+    "mocha": "^2.2.5",
+    "precss": "^1.2.3",
+    "react": "0.14.x",
+    "react-addons-css-transition-group": "^0.14.3",
+    "react-addons-test-utils": "^0.14.0",
+    "react-dom": "0.14.x",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.1.1",
+    "rt-core": "^0.3.0",
+    "shelljs": "^0.5.3",
+    "sinon": "^1.15.4",
+    "stream-combiner2": "^1.0.2",
+    "through2": "^2.0.0",
+    "uuid": "^2.0.1",
+    "velocity-react": "^1.1.1"
+  },
+  "license": "MIT"
+}
