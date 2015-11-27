@@ -1,5 +1,7 @@
 # react.css.transition
 
+![Meituan Design: Calendar](https://s3.amazonaws.com/media-p.slid.es/uploads/265482/images/1991644/calendar.gif)
+
 slides: http://slides.com/solome/animation-in-react/
 
 ## Development
